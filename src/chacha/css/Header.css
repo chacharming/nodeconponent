@@ -1,0 +1,4 @@
+li{ display: inline-block; cursor: pointer;}
+.gnb > li{ font-size: 1.2rem;}
+.port li{ display: none; font-size: 1rem;}
+.port:hover li{ display: block;}

@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
-import App from './App';
+// 컨퍼넌트는 리액트 컨텐츠 단위
+//import App, { Activeapp } from './App';
+import Aheader from './chacha/js/Header';
+import Afooter from './chacha/js/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Aheader />
+    {/* <App /> */}
+    <Afooter />
+    {/* <Activeapp /> */}
   </React.StrictMode>
 );
 
